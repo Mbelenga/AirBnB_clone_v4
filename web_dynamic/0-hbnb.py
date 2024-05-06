@@ -38,7 +38,7 @@ def hbnb():
     places = sorted(places, key=lambda k: k.name)
 
     # Generates UUID converts to string
-    cache_id = str(uuid4)))
+    cache_id = str(uuid4)
 
     return render_template('100-hbnb.html',
                            states=st_ct,
